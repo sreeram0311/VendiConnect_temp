@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+*/node_modules/
+.pnp
+.pnp.js
+
+# Environment variables & secrets (keep .env.example)
+.env
+.env.*
+!.env.example
+*/**/.env
+*/**/.env.*
+!*/**/.env.example
+
+# Expo & Mobile builds
+.expo/
+*/.expo/
+dist/
+*/dist/
+web-build/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Native Android / iOS builds
+android/app/build/
+android/.gradle/
+android/build/
+ios/build/
+ios/Pods/
+ios/*.xcworkspace/xcuserdata/
+*.ipa
+*.apk
+*.aab
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS & IDE artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# TypeScript build caches
+*.tsbuildinfo
+
+# WhatsApp bot auth & session caches
+.wwebjs_auth/
+*/**/.wwebjs_auth/
+.wwebjs_cache/
+*/**/.wwebjs_cache/
+
